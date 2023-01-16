@@ -2,7 +2,7 @@
 
 #### how to install?
 ```shell
-npm i Titleize-simple
+npm i titleize-simple
 ```
 
 #### what it does?
