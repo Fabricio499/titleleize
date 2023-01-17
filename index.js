@@ -11,7 +11,7 @@ export function Titleize(name) {
         return words.join(" ");
     }
 
-    return console.log(name && userNameHere[1]?.length > 3 ? tranform(userNameHere[0]) + ' ' + tranform(userNameHere[1])
-    : tranform(userNameHere[0]) + ' ' + String(userNameHere[1]).toLowerCase() + ' ' + tranform(userNameHere[2]))
+    return name && userNameHere[1]?.length > 3 ? tranform(userNameHere[0]) + ' ' + tranform(userNameHere[1])
+    : tranform(userNameHere[0]) + ' ' + String(userNameHere[1]).toLowerCase() + ' ' + tranform(userNameHere[2])
 
 }
