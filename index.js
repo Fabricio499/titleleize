@@ -1,4 +1,4 @@
-function Titleize(name) {
+export function Titleize(name) {
 
     const userNameHere = name.split(' ')
 
@@ -15,5 +15,3 @@ function Titleize(name) {
     : tranform(userNameHere[0]) + ' ' + String(userNameHere[1]).toLowerCase() + ' ' + tranform(userNameHere[2]))
 
 }
-
-module.exports = { Titleize }
